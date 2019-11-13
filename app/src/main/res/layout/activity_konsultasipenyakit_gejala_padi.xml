@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#2997e5">
+
+
+    <ListView android:id="@+id/listviewnya_gejalaa"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:choiceMode="multipleChoice"
+        android:layout_above="@+id/relativeLayout"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:id="@+id/btn_proses"
+                android:background="#2997e5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginBottom="10dp"
+                android:text="Proses"
+                android:height="55dp"
+                android:onClick="prosesnapadi" />
+        </TableRow>
+    </RelativeLayout>
+</RelativeLayout>

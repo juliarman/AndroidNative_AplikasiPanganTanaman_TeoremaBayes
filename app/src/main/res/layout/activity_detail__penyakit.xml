@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Penyakit.Detail_Penyakit">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/detailpanduanbackground"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="@drawable/jagung"
+            />
+
+        <org.sufficientlysecure.htmltextview.HtmlTextView
+            android:id="@+id/judulpenyakit"
+            android:padding="10dp"
+            android:fontFamily="sans-serif-light"
+            android:layout_width="match_parent"
+            android:layout_height="307dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+        <org.sufficientlysecure.htmltextview.HtmlTextView
+            android:id="@+id/deskripsipenyakit"
+            android:layout_below="@+id/judulpenyakit"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0d0d0d"
+
+            />
+
+
+    </RelativeLayout>
+
+</ScrollView>

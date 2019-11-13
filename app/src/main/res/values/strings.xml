@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppPangan</string>
+    <string name="panduan_activity">PANDUAN</string>
+    <string name="activity_user">USER MENU</string>
+    <string name="menu_panduan">MENU PANDUAN</string>
+    <string name="konsultasi_penyakit">KONSULTASI PENYAKIT TANAMAN</string>
+
+
+</resources>

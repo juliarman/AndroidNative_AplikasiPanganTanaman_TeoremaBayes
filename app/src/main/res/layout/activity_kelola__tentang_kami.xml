@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Admin.KelolaTentangKami">
+
+    <RelativeLayout
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:padding="10dp"
+            android:id="@+id/judul"
+            android:textSize="20dp"
+            android:hint="Judul Aplikasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:padding="10dp"
+            android:id="@+id/mahasiswa1"
+            android:layout_below="@+id/judul"
+            android:textSize="20dp"
+            android:hint="Mahasiswa 1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:padding="10dp"
+            android:id="@+id/stambuk1"
+            android:layout_toRightOf="@id/mahasiswa1"
+            android:layout_below="@+id/judul"
+            android:textSize="20dp"
+            android:hint="Stambuk 1"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:padding="10dp"
+            android:id="@+id/mahasiswa2"
+            android:layout_below="@+id/mahasiswa1"
+            android:textSize="20dp"
+            android:hint="Mahasiswa 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:padding="10dp"
+            android:inputType="number"
+            android:id="@+id/stambuk2"
+            android:layout_toRightOf="@id/mahasiswa2"
+            android:layout_below="@+id/mahasiswa1"
+            android:textSize="20dp"
+            android:hint="Stambuk 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:padding="10dp"
+            android:layout_below="@id/mahasiswa2"
+            android:id="@+id/pembimbing1"
+            android:textSize="20dp"
+            android:hint="Pembimbing 1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:padding="10dp"
+            android:layout_below="@id/pembimbing1"
+            android:id="@+id/pembimbing2"
+            android:textSize="20dp"
+            android:hint="Pembimbing 2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:padding="10dp"
+            android:layout_below="@id/pembimbing2"
+            android:id="@+id/penguji1"
+            android:textSize="20dp"
+            android:hint="Penguji 1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:padding="10dp"
+            android:layout_below="@id/penguji1"
+            android:id="@+id/namainstansii"
+            android:textSize="20dp"
+            android:hint="Nama Instansi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:padding="10dp"
+            android:layout_below="@id/namainstansii"
+            android:id="@+id/kepalainstansi"
+            android:textSize="20dp"
+            android:hint="Nama kepala instansi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:padding="10dp"
+            android:layout_below="@id/kepalainstansi"
+            android:id="@+id/gambarlogo1"
+            android:textSize="20dp"
+            android:hint="Url gambar 1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:padding="10dp"
+            android:layout_below="@id/gambarlogo1"
+            android:id="@+id/gambarlogo2"
+            android:textSize="20dp"
+            android:hint="Url gambar 2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:padding="15dp"
+            android:layout_below="@+id/gambarlogo2"
+            android:id="@+id/simpankelolatentangkami"
+            style="@style/buttongeneral"
+            android:textSize="20dp"
+            android:text="SIMPAN DATA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</LinearLayout>

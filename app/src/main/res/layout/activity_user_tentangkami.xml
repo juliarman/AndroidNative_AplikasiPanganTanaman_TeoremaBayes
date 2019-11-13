@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_tentangkami">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <org.sufficientlysecure.htmltextview.HtmlTextView
+            android:id="@+id/judulaplikasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="127dp"
+            android:layout_marginTop="104dp"
+            android:text="Dibuat Oleh : "
+            android:textColor="#2997e5"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="97dp"
+            android:layout_marginTop="254dp"
+            android:text="Pemeriksa Aplikasi : "
+            android:textColor="#2997e5"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="54dp"
+            android:layout_marginTop="418dp"
+            android:text="Ucapan Terima Kasih Kepada : "
+            android:textColor="#2997e5"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <org.sufficientlysecure.htmltextview.HtmlTextView
+            android:id="@+id/namapembuat1"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView13"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="155dp"
+            android:layout_marginEnd="65dp"
+            android:text=""
+            android:textSize="20dp" />
+
+        <org.sufficientlysecure.htmltextview.HtmlTextView
+            android:id="@+id/pembimbing1"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView13"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="297dp"
+            android:layout_marginEnd="-25dp"
+            android:text=""
+            android:textSize="17dp" />
+
+        <org.sufficientlysecure.htmltextview.HtmlTextView
+            android:id="@+id/namapangkat"
+            android:layout_width="324dp"
+            android:layout_height="49dp"
+            android:layout_alignEnd="@+id/textView13"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="452dp"
+            android:layout_marginEnd="-102dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="17dp" />
+
+        <org.sufficientlysecure.htmltextview.HtmlTextView
+            android:id="@+id/namanyakepala"
+            android:layout_width="312dp"
+            android:layout_height="28dp"
+            android:layout_alignEnd="@+id/textView13"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="506dp"
+            android:layout_marginEnd="-101dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="20dp" />
+
+        <org.sufficientlysecure.htmltextview.HtmlTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView13"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="303dp"
+            android:layout_marginEnd="-128dp"
+            android:text="Pembimbing 1"
+            android:textSize="17dp" />
+
+        <org.sufficientlysecure.htmltextview.HtmlTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView13"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="338dp"
+            android:layout_marginEnd="-130dp"
+            android:text="Pembimbing 2"
+            android:textSize="17dp" />
+
+        <org.sufficientlysecure.htmltextview.HtmlTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView13"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="367dp"
+            android:layout_marginEnd="-91dp"
+            android:text="Penguji 1"
+            android:textSize="17dp" />
+
+        <org.sufficientlysecure.htmltextview.HtmlTextView
+            android:id="@+id/pembimbing2"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView13"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="332dp"
+            android:layout_marginEnd="-27dp"
+            android:text=""
+            android:textSize="17dp" />
+
+        <org.sufficientlysecure.htmltextview.HtmlTextView
+            android:id="@+id/Penguji1"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView13"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="369dp"
+            android:layout_marginEnd="-26dp"
+            android:text=""
+            android:textSize="17dp" />
+
+        <org.sufficientlysecure.htmltextview.HtmlTextView
+            android:id="@+id/stambuk1"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView13"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="158dp"
+            android:layout_marginEnd="-121dp"
+            android:text=""
+            android:textSize="20dp" />
+
+        <org.sufficientlysecure.htmltextview.HtmlTextView
+            android:id="@+id/namapembuat2"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView13"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="67dp"
+            android:text=""
+            android:textSize="20dp" />
+
+        <org.sufficientlysecure.htmltextview.HtmlTextView
+            android:id="@+id/stambuk2"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView13"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="-125dp"
+            android:text=""
+            android:textSize="20dp" />
+
+
+        <ImageView
+            android:id="@+id/logokabupaten"
+            android:layout_width="108dp"
+            android:layout_height="109dp"
+            android:layout_below="@+id/namanyakepala"
+            android:layout_alignStart="@+id/namapembuat1"
+            android:layout_marginStart="-12dp"
+            android:layout_marginTop="-2dp" />
+
+        <ImageView
+            android:id="@+id/logokampus"
+            android:layout_width="108dp"
+            android:layout_height="109dp"
+            android:layout_below="@+id/namanyakepala"
+            android:layout_alignStart="@+id/namapembuat1"
+            android:layout_marginStart="274dp"
+            android:layout_marginTop="0dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logokabupaten"
+            android:layout_alignStart="@+id/namanyakepala"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/urllogo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logokabupaten"
+            android:layout_alignStart="@+id/namanyakepala"
+            android:visibility="invisible"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/urllogo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logokabupaten"
+            android:layout_alignStart="@+id/namanyakepala"
+            android:layout_marginStart="280dp"
+            android:visibility="invisible"
+            android:layout_marginTop="5dp"
+            android:text="TextView" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

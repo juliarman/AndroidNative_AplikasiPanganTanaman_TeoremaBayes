@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Panduan.padi">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="312dp"
+        app:srcCompat="@drawable/panduantanamanpadipilihan" />
+
+    <RelativeLayout
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+        <Button
+            android:id="@+id/benih_berkualitas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BENIH BERKUALITAS"
+            style="@style/buttongeneral"
+            />
+
+        <Button
+            android:id="@+id/penanaman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PENANAMAN"
+            style="@style/buttongeneral"
+            android:layout_below="@id/benih_berkualitas"/>
+
+        <Button
+            android:id="@+id/persemaian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PERSEMAIAN"
+            style="@style/buttongeneral"
+            android:layout_below="@id/penanaman"/>
+
+        <Button
+            android:id="@+id/pemupukan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PEMUPUKAN"
+            style="@style/buttongeneral"
+            android:layout_below="@id/persemaian"/>
+
+        <Button
+            android:id="@+id/pengendalian_hama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PENGENDALIAN HAMA"
+            style="@style/buttongeneral"
+            android:layout_below="@id/pemupukan"/>
+
+        <Button
+            android:id="@+id/panen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PANEN"
+            style="@style/buttongeneral"
+            android:layout_below="@id/pengendalian_hama"/>
+
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

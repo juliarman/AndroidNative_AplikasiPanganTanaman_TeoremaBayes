@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".user">
+
+
+    <RelativeLayout
+        android:padding="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="408dp"
+            android:layout_height="260dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/image_user" />
+
+        <Button
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_below="@id/imageView"
+            style="@style/buttongeneral"
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2997e5"
+            android:onClick="panduan"
+            android:text="PANDUAN"
+            android:textColor="#ECECEC" />
+
+
+        <Button
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_below="@id/button7"
+            style="@style/buttongeneral"
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2997e5"
+            android:onClick="informasipenyakit"
+            android:text="INFORMASI PENYAKIT"
+            android:textColor="#ECECEC"
+            />
+
+        <Button
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="#2997e5"
+            android:layout_below="@id/button3"
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="konsultasipenyakit"
+            android:text="KONSULTASI PENYAKIT"
+            android:textColor="#ECECEC" />
+
+        <Button
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_below="@id/button4"
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="tentangkami"
+            android:background="#2997e5"
+            android:text="TENTANG KAMI"
+            android:textColor="#ECECEC" />
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

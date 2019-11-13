@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="false"
+    android:background="@drawable/background"
+    tools:context=".MainActivityLogin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="62dp"
+            android:layout_marginBottom="342dp"
+            android:background="@drawable/fieldtext"
+            android:ems="10"
+            android:fontFamily="Aller"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:paddingLeft="40px"
+            android:textColor="#2997e5"
+            android:textColorHint="#2997e5" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="62dp"
+            android:layout_marginBottom="279dp"
+            android:background="@drawable/fieldtext"
+            android:ems="10"
+            android:fontFamily="Aller"
+            android:hint="Password"
+            android:inputType="textPersonName"
+            android:paddingLeft="40px"
+            android:textColor="#2997e5"
+            android:textColorHint="#2997e5" />
+
+        <Button
+            android:id="@+id/masukadmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="71dp"
+            android:layout_marginBottom="208dp"
+            android:background="#2997e5"
+            android:text="Login"
+            android:onClick="admin"
+            android:textColor="#F2F2F2" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="233dp"
+            android:layout_marginBottom="207dp"
+            android:background="#2997e5"
+            android:onClick="halaman_user"
+            android:text="User"
+            android:textColor="#F2F2F2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="74dp"
+            android:layout_marginTop="78dp"
+            android:fontFamily="Aller"
+            android:text="SELAMAT DATANG"
+            android:textColor="#2997e5"
+            android:textFontWeight="100px"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="91dp"
+            android:layout_marginTop="130dp"
+            android:text="DI APLIKASI PANDUAN BUDIDAYA"
+            android:textColor="#2997e5" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="98dp"
+            android:layout_marginTop="153dp"
+            android:text="DAN PENCEGAHAN PENYAKIT"
+            android:textColor="#2997e5" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="178dp"
+            android:text="PADA TANAMAN PANGAN"
+            android:textColor="#2997e5" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="109dp"
+            android:layout_marginTop="204dp"
+            android:text="( PADI, JAGUNG, KEDELAI )"
+            android:textColor="#2997e5" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

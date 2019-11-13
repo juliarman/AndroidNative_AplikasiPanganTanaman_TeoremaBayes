@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user_konsultasipenyakit">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="334dp"
+            android:layout_height="87dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="62dp"
+
+            android:text="PILIH SALAH SATU TANAMAN PANGAN:"
+
+            android:textColor="#2997e5"
+            android:textSize="60px" />
+
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="303dp"
+            android:background="#2997e5"
+            android:onClick="userkonsultasipenyakitkedelai"
+            android:text="KEDELAI"
+            android:textColor="#ECECEC"
+            tools:layout_editor_absoluteX="14dp"
+            tools:layout_editor_absoluteY="213dp" />
+
+        <Button
+            android:id="@+id/button29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="361dp"
+            android:background="#2997e5"
+            android:onClick="userkonsultasipenyakitpadi"
+            android:text="PADI"
+            android:textColor="#ECECEC"
+            tools:layout_editor_absoluteX="14dp"
+            tools:layout_editor_absoluteY="213dp" />
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="422dp"
+            android:background="#2997e5"
+            android:onClick="gejalajagung"
+            android:text="JAGUNG"
+            android:textColor="#ECECEC"
+            tools:layout_editor_absoluteX="14dp"
+            tools:layout_editor_absoluteY="213dp" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

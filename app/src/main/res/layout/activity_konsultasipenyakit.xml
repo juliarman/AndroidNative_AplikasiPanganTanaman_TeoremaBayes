@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Konsultasi.konsultasipenyakit">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+
+
+        <Button
+        android:id="@+id/konsultasipenyakitjagung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KONSULTASI PENYAKIT JAGUNG"
+        style="@style/buttongeneral"
+            />
+
+        <Button
+            android:id="@+id/konsultasipenyakitkedelai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KONSULTASI PENYAKIT KEDELAI"
+            style="@style/buttongeneral"
+            android:layout_below="@+id/konsultasipenyakitjagung"
+            />
+
+        <Button
+            android:id="@+id/konsultasipenyakitpadi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KONSULTASI PENYAKIT PADI"
+            style="@style/buttongeneral"
+            android:layout_below="@+id/konsultasipenyakitkedelai"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

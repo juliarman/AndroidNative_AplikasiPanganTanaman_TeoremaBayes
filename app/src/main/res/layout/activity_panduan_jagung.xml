@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Panduan.jagung">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="312dp"
+        app:srcCompat="@drawable/panduanjagungpilihan" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_height="match_parent">
+
+
+
+
+        <Button
+            android:id="@+id/pengelolahan_lahan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PENGELOLAHAN LAHAN"
+            style="@style/buttongeneral"
+            />
+
+
+        <Button
+            android:id="@+id/pembibitan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PEMBIBITAN"
+            style="@style/buttongeneral"
+            android:layout_below="@id/pengelolahan_lahan"/>
+
+
+        <Button
+            android:id="@+id/pemberian_pupuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PEMBERIAN PUPUK"
+            style="@style/buttongeneral"
+            android:layout_below="@id/pembibitan"/>
+
+
+
+        <Button
+            android:id="@+id/pengendalianhama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PENGENDALIAN HAMA"
+            style="@style/buttongeneral"
+            android:layout_below="@id/pemberian_pupuk"/>
+
+        <Button
+            android:id="@+id/panenjagung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/buttongeneral"
+            android:text="PANEN"
+            android:layout_below="@id/pengendalianhama"/>
+    </RelativeLayout>
+</LinearLayout>

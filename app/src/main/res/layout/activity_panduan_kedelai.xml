@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Panduan.kedelai">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="312dp"
+        app:srcCompat="@drawable/panduantanamankedelaipilihan" />
+
+    <RelativeLayout
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/benih_berkualitaskedelai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BENIH BERKUALITAS"
+            style="@style/buttongeneral"/>
+
+        <Button
+            android:id="@+id/penanamankedelai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PENANAMAN"
+            style="@style/buttongeneral"
+            android:layout_below="@id/benih_berkualitaskedelai"/>
+
+        <Button
+            android:id="@+id/pemupukankedelai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PEMUPUKAN"
+            style="@style/buttongeneral"
+            android:layout_below="@id/penanamankedelai"/>
+
+        <Button
+            android:id="@+id/pengairankedelai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PENGAIRAN"
+            style="@style/buttongeneral"
+            android:layout_below="@id/pemupukankedelai"/>
+
+        <Button
+            android:id="@+id/pengendalian_hamakedelai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PENGENDALIAN HAMA"
+            style="@style/buttongeneral"
+            android:layout_below="@id/pengairankedelai"/>
+
+        <Button
+            android:id="@+id/pemeliharaankedelai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PEMELIHARAAN"
+            style="@style/buttongeneral"
+            android:layout_below="@id/pengendalian_hamakedelai"/>
+
+        <Button
+            android:id="@+id/panenkedelai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PANEN"
+            style="@style/buttongeneral"
+            android:layout_below="@id/pengendalian_hamakedelai"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_nama_penyakit"
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/jagung"
+        android:text="Nama Penyakit"
+        android:textAlignment="center"
+        android:textColor="#139f5a"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_nama_penyakit">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.example.asus.apppangan.ZoomTextView
+                android:textSize="15dp"
+                android:textColor="#139f5a"
+                android:id="@+id/titledefinisi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Definisi:"
+                android:layout_below="@+id/imageView"
+                android:layout_alignStart="@+id/tv_deskripsip"/>
+
+            <com.example.asus.apppangan.ZoomTextView
+                android:textSize="15dp"
+                android:id="@+id/tv_deskripsip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:text="Content Deskripsi"
+                android:layout_below="@+id/titledefinisi"
+                android:textIsSelectable="false"
+                android:layout_alignParentStart="true"/>
+
+            <com.example.asus.apppangan.ZoomTextView
+                android:textSize="15dp"
+                android:textColor="#139f5a"
+                android:id="@+id/titlepenyebab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Penyebab:"
+                android:layout_below="@+id/tv_deskripsip"
+                android:layout_alignParentStart="true"/>
+
+            <com.example.asus.apppangan.ZoomTextView
+                android:textSize="15dp"
+                android:id="@+id/tv_penyebabp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:text="Content Penyebab"
+                android:layout_below="@+id/titlepenyebab"
+                android:layout_alignParentStart="true"/>
+
+            <com.example.asus.apppangan.ZoomTextView
+                android:textSize="15dp"
+                android:textColor="#139f5a"
+                android:id="@+id/titlepencegahan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Pencegahan:"
+                android:layout_below="@+id/tv_penyebabp"
+                android:layout_alignParentStart="true"/>
+
+            <com.example.asus.apppangan.ZoomTextView
+                android:textSize="15dp"
+                android:id="@+id/tv_pencegahanp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:text="Content Pencegahan"
+                android:layout_below="@+id/titlepencegahan"
+                android:layout_alignParentStart="true"/>
+
+            <com.example.asus.apppangan.ZoomTextView
+                android:textSize="15dp"
+                android:id="@+id/tv_idpenyakit"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:text="Content Pencegahan"
+                android:layout_below="@+id/tv_pencegahanp"
+                android:layout_alignParentStart="true"/>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginBottom="20dp"
+                android:scaleType="fitXY"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

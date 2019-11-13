@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "832425182684",
+    "firebase_url": "https://apppangan.firebaseio.com",
+    "project_id": "apppangan",
+    "storage_bucket": "apppangan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832425182684:android:976f4a8ba4874f9e",
+        "android_client_info": {
+          "package_name": "com.example.asus.apppangan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832425182684-tbf4olc4fhesdu5tflb39j93a2taijgj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.apppangan",
+            "certificate_hash": "58922f97a2280fb3eda8fb36ecaf089a76796242"
+          }
+        },
+        {
+          "client_id": "832425182684-vj0d218t0igg6eaneb3i8hrfk7f1qj0v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgI-LxPh-QO-fO-K_pFabwxrtIExdQEKk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832425182684-vj0d218t0igg6eaneb3i8hrfk7f1qj0v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

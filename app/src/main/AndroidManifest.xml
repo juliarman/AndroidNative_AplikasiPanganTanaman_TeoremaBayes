@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.apppangan">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Admin.Module"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".Admin.Showdata" />
+        <activity android:name=".Admin.KelolaPanduan" />
+
+        <activity android:name=".Admin.KelolaTentangKami" />
+        <activity android:name=".Admin.Admin" />
+        <activity android:name=".Penyakit.Detail_Penyakit" />
+        <activity android:name=".Panduan.Detail_Panduan" />
+        <activity android:name=".MainActivityLogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Konsultasi.konsultasipenyakit_gejala_jagung" />
+        <activity
+            android:name=".user"
+            android:label="@string/activity_user" />
+        <activity
+            android:name=".panduan"
+            android:label="USER MENU" />
+        <activity
+            android:name=".Panduan.jagung"
+            android:label="MENU PANDUAN" />
+        <activity
+            android:name=".Panduan.kedelai"
+            android:label="PANDUAN" />
+        <activity
+            android:name=".Panduan.padi"
+            android:label="PANDUAN" />
+        <activity
+            android:name=".Penyakit.informasipenyakit"
+            android:label="INFORMASI PENYAKIT" />
+        <activity
+            android:name=".Konsultasi.konsultasipenyakit"
+            android:label="@string/konsultasi_penyakit" />
+        <activity
+            android:name=".tentangkami"
+            android:label="Tentang Kami" />
+        <activity
+            android:name=".Penyakit.informasipenyakit_pilihan"
+            android:label="INFORMASI PENYAKIT" />
+        <activity android:name=".user_tentangkami" />
+        <activity
+            android:name=".Konsultasi.konsultasipenyakit_gejala_padi"
+            android:label="@string/konsultasi_penyakit" />
+        <activity
+            android:name=".Konsultasi.konsultasipenyakit_gejala_kedelai"
+            android:label="PANDUAN" />
+        <activity
+            android:name=".Penyakit.informasipenyakit_jagung_pilihan"
+            android:label="INFORMASI PENYAKIT" />
+        <activity
+            android:name=".Penyakit.list_penyakit_jagung"
+            android:label="PENYAKIT JAGUNG" />
+        <activity
+            android:name=".Penyakit.list_penyakit_kedelai"
+            android:label="PENYAKIT KEDELAI" />
+        <activity
+            android:name=".Penyakit.list_penyakit_padi"
+            android:label="PENYAKIT PADI" />
+        <activity
+            android:name=".Konsultasi.hasil_konsultasi_padi"
+            android:label="HASIL KONSULTASI" />
+        <activity
+            android:name=".Konsultasi.hasil_konsultasi_kedelai"
+            android:label="HASIL KONSULTASI" />
+        <activity
+            android:name=".Konsultasi.hasil_konsultasi_jagung"
+            android:label="HASIL KONSULTASI" />
+        <activity android:name=".listview_diagnosis" />
+        <activity android:name=".DBHelper" />
+        <activity android:name=".Panduan.Detail_Panduan$Mauko" />
+    </application>
+
+</manifest>

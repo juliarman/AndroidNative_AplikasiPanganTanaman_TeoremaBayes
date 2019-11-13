@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".panduan">
+
+
+
+
+        <Button
+            style="@style/buttongeneral"
+            android:id="@+id/button78"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="422dp"
+            android:background="#2997e5"
+            android:onClick="jagung"
+            android:text="JAGUNG"
+            android:textColor="#ECECEC"
+            tools:layout_editor_absoluteX="14dp"
+            tools:layout_editor_absoluteY="213dp" />
+
+        <Button
+            style="@style/buttongeneral"
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="361dp"
+            android:background="#2997e5"
+            android:onClick="padi"
+            android:text="PADI"
+            android:textColor="#ECECEC"
+            tools:layout_editor_absoluteX="14dp"
+            tools:layout_editor_absoluteY="213dp" />
+
+        <Button
+            style="@style/buttongeneral"
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="303dp"
+            android:background="#2997e5"
+            android:onClick="kedelai"
+            android:text="KEDELAI"
+            android:textColor="#ECECEC"
+            tools:layout_editor_absoluteX="14dp"
+            tools:layout_editor_absoluteY="213dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="59dp"
+            android:text="PILIH SALAH SATU TANAMAN PANGAN :"
+            android:textColor="#2997e5"
+            android:textSize="60px" />
+
+
+
+</RelativeLayout>
